@@ -1,0 +1,128 @@
+{
+	"name": "Streadata.io API Gallery - Forecast",
+	"description": "This is a repository of forecast APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/forecast.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://forecast.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Service Objects",
+			"x-api-slug": "service-objects",
+			"description": "With our suite of data verification APIs for phone, email, address and more, you can keep your businesss database clean, accurate, and up to date.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/371-service-objects.jpg",
+			"humanURL": "http://www.serviceobjects.com/",
+			"baseURL": "https:///",
+			"tags": "Forecast",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forecast/master/_listings/service-objects/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Weather Underground",
+			"x-api-slug": "weather-underground",
+			"description": "Weather Underground provides local & long range weather forecasts, weather reports, maps & tropical weather conditions for locations worldwide.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/966-weather-underground.jpg",
+			"humanURL": "http://www.wunderground.com",
+			"baseURL": "https://api.wunderground.com//api/",
+			"tags": "Forecast",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forecast/master/_listings/weather-underground/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenHazards Group",
+			"x-api-slug": "openhazards-group",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1109-openhazards-group.jpg",
+			"humanURL": "http://www.openhazards.com",
+			"baseURL": "https:///",
+			"tags": "Forecast",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forecast/master/_listings/openhazards-group/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SpitCast",
+			"x-api-slug": "spitcast",
+			"description": "Accurate California surf reports, 7 day surf forecasts, spot maps and guides for Northern and Southern CA, San Diego, Orange County, Santa Cruz, and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1274-spitcast.jpg",
+			"humanURL": "http://www.spitcast.com/api/docs/",
+			"baseURL": "https:///",
+			"tags": "Forecast",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forecast/master/_listings/spitcast/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ClimbingWeather.com",
+			"x-api-slug": "climbingweather-com",
+			"description": "Fast, accurate weather forecasts for climbing areas throughout the United States. Keeping you high and dry since 2005.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1643-climbingweather-com.jpg",
+			"humanURL": "http://www.climbingweather.com/api",
+			"baseURL": "https:///",
+			"tags": "Forecast",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forecast/master/_listings/climbingweather-com/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Weatherbit.io",
+			"x-api-slug": "weatherbit-io",
+			"description": "Our Weather API is the most powerful Weather data API on the web. Sign up for our free Weather API, and upgrade as your weather data needs grow!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28119-weatherbit.jpg",
+			"humanURL": "http://weatherbit.io",
+			"baseURL": "https://api.weatherbit.io//v2.0",
+			"tags": "Forecast",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forecast/master/_listings/weatherbit-io/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Forecast",
+	"include": [
+		{
+			"name": "Service Objects",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forecast/master/_listings/service-objects/apis.yaml"
+		},
+		{
+			"name": "Weather Underground",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forecast/master/_listings/weather-underground/apis.yaml"
+		},
+		{
+			"name": "OpenHazards Group",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forecast/master/_listings/openhazards-group/apis.yaml"
+		},
+		{
+			"name": "SpitCast",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forecast/master/_listings/spitcast/apis.yaml"
+		},
+		{
+			"name": "ClimbingWeather.com",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forecast/master/_listings/climbingweather-com/apis.yaml"
+		},
+		{
+			"name": "Weatherbit.io",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/forecast/master/_listings/weatherbit-io/apis.yaml"
+		}
+	]
+}

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Weatherbit.io
 x-complete: 1
@@ -623,4 +622,3 @@ paths:
       - Code
       - Postal
       - Code
----
